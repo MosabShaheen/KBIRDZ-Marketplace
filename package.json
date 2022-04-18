@@ -1,0 +1,42 @@
+{
+  "name": "nft-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "add": "^2.0.6",
+    "autoprefixer": "^10.4.4",
+    "axios": "^0.26.1",
+    "chai": "^4.3.6",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.2",
+    "hardhat": "^2.9.3",
+    "ipfs-http-client": "^56.0.2",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "web3modal": "^1.9.6"
+  },
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
