@@ -95,7 +95,7 @@ description:''})
                 <input
                 placeholder='Asset Price in ETH'
                 className='mt-2 boder rounded p-4'
-                onChange={ e => updateFormInput({...formInput, prcie: e.target.value})}
+                onChange={ e => updateFormInput({...formInput, price: e.target.value})}
                 />
                 <input
                 type='file'
