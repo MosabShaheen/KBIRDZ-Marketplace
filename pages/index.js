@@ -20,7 +20,7 @@ export default function Home() {
     // what we want to load;
     // provider, tokenContract, marketContract, data for our marketItems
 
-    const provider = new ethers.providers.JsonRpcProvider()
+    const provider = new ethers.providers.JsonRpcProvider("https://rpc-mumbai.matic.today")
     const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider)
     const marketContract = new ethers.Contract(nftmarketaddress, KBMarket.abi, provider)
     const data = await marketContract.fetchMarketTokens()
